@@ -1,6 +1,6 @@
 # CTracker (ECCV2020 Spotlight)
 
-my implementation  of **Chained-Tracker** as described in [Chained-Tracker: Chaining Paired Attentive Regression Results for End-to-End Joint Multiple-Object Detection and Tracking](https://arxiv.org/abs/2007.14557).
+my implementation  of **Chained-Tracker** as described in [Chained-Tracker](https://arxiv.org/abs/2007.14557).
  
 The introduction video of CTracker is uploaded to [Youtube](https://www.youtube.com/watch?v=UovwAgKys88).
 
