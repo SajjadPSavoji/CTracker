@@ -66,6 +66,7 @@ person,0
 ## Acknowledgements
 
 - Find the origianl implementation at [here](https://github.com/pjl1995/CTracker)
+- For evaluatio we used the official MOT evaluation code named [TrackEval](https://github.com/JonathonLuiten/TrackEval/tree/master/docs/MOTChallenge-Official)
 - Part of codes are borrowed from the [pytorch retinanet implementation](htt
 ps://github.com/yhenon/pytorch-retinanet)
 - The NMS module used is from the [simpledet](https://github.com/TuSimple/simpledet)
