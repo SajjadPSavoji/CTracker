@@ -42,9 +42,8 @@ def generate_csv(root_dir, result_csv):
 if __name__ == "__main__":
 
     root_path = sys.argv[1]
-    dest_path = sys.argv[2]
     datasets = os.listdir(root_path)
     for dataset in datasets:
         part = "train"
         print(f"processing {dataset}:{part}")
-        generate_csv(os.path.join(root_path, dataset, part), os.path.join(dest_path, f"{dataset}_{part}.csv"))
+        generate_csv(os.path.join(root_path, dataset, part), os.path.join(root_path, dataset, f"{part}_annots.csv"))
