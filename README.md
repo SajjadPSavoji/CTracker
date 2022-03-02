@@ -1,6 +1,6 @@
-# CTracker (ECCV2020 Spotlight)
+# CTracker (ECCV2020)
 
-my implementation  of **Chained-Tracker** as described in [Chained-Tracker: Chaining Paired Attentive Regression Results for End-to-End Joint Multiple-Object Detection and Tracking](https://arxiv.org/abs/2007.14557).
+my implementation  of **Chained-Tracker** as described in [Chained-Tracker](https://arxiv.org/abs/2007.14557).
  
 The introduction video of CTracker is uploaded to [Youtube](https://www.youtube.com/watch?v=UovwAgKys88).
 
@@ -62,26 +62,11 @@ For example:
 person,0
 ```
 
-## Training
-
-The network can be trained using the `train.py` script. For training on MOT17, use
-
-```
-CUDA_VISIBLE_DEVICES=0 python train.py --root_path MOT17_ROOT --model_dir ./ctracker/ --depth 50
-```
-By default, testing will start immediately after training finished.
-
-## Testing
-
-A trained model is available at [Google Drive](https://drive.google.com/file/d/1-5f-3QwcDoFL6b3_81tcsYTWsU43aBaz/view?usp=sharing)/[Tencent Weiyun](https://share.weiyun.com/KgWrWCv3), run the following commands to start testing:
-
-```
-CUDA_VISIBLE_DEVICES=0 python test.py --dataset_path MOT17_ROOT --model_dir ./trained_model/
-```
-
 
 ## Acknowledgements
 
+- Find the origianl implementation at [here](https://github.com/pjl1995/CTracker)
+- For evaluatio we used the official MOT evaluation code named [TrackEval](https://github.com/JonathonLuiten/TrackEval/tree/master/docs/MOTChallenge-Official)
 - Part of codes are borrowed from the [pytorch retinanet implementation](htt
 ps://github.com/yhenon/pytorch-retinanet)
 - The NMS module used is from the [simpledet](https://github.com/TuSimple/simpledet)
@@ -98,6 +83,4 @@ If you find CTracker is useful in your project, please consider citing us:
   booktitle={Proceedings of the European Conference on Computer Vision},
   year={2020},
 }
-```
-
-
+``
