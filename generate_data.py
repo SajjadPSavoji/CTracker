@@ -40,7 +40,7 @@ def generate_csv(root_dir, result_csv):
 	fout.close()
 
 if __name__ == "__main__":
-
+	# takes in the root repo for files ./Data
     root_path = sys.argv[1]
     datasets = os.listdir(root_path)
     for dataset in datasets:
