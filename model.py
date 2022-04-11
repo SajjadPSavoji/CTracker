@@ -108,6 +108,7 @@ class RegressionModel(nn.Module):
 
         return out.contiguous().view(out.shape[0], -1, 8)
 
+
 class ClassificationModel(nn.Module):
     def __init__(self, num_features_in, num_anchors=1, num_classes=80, prior=0.01, feature_size=256):
         super(ClassificationModel, self).__init__()
