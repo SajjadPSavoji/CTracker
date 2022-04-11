@@ -64,6 +64,7 @@ def generate_anchors(ratios=None, scales=None):
 
     return anchors
 
+
 def shift(shape, stride, anchors):
     shift_x = (np.arange(0, shape[1]) + 0.5) * stride
     shift_y = (np.arange(0, shape[0]) + 0.5) * stride
