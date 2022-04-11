@@ -305,6 +305,7 @@ class CSVDataset(Dataset):
         return float(image.width) / float(image.height)
 
 
+
 def collater(data):
     imgs = [s['img'] for s in data]
     annots = [s['annot'] for s in data]
