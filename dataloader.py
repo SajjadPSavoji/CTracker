@@ -468,6 +468,7 @@ class Augmenter(object):
         return sample
 
 
+
 class Normalizer(object):
 
     def __init__(self):
