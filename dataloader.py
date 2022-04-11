@@ -548,6 +548,7 @@ def random_hue(img, img_next):
 
 
 
+
 class PhotometricDistort(object):
     def __init__(self):
         pass
