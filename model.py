@@ -151,6 +151,7 @@ class ClassificationModel(nn.Module):
         return out
 
 
+
 class ReidModel(nn.Module):
     def __init__(self, num_features_in, num_anchors=1, num_classes=80, prior=0.01, feature_size=256):
         super(ReidModel, self).__init__()
