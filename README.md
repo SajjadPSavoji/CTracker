@@ -6,7 +6,7 @@ The introduction video of CTracker is uploaded to [Youtube](https://www.youtube.
 
 ## Video demos on MOT challenge test set
 <img src="demos/MOT17-03.gif" width="400"/>   <img src="demos/MOT17-07.gif" width="400"/>
-<img src="demos/MOT17-08.gif" width="400"/>   <img src="demos/MOT17-12.gif" width="400"/>
+<!-- <img src="demos/MOT17-08.gif" width="400"/>   <img src="demos/MOT17-12.gif" width="400"/> -->
 
 ## Organize MOT17 dataset
 MOT17 dataset can be downloaded at [MOTChallenge](https://motchallenge.net/data/MOT17Det/).
