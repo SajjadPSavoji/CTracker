@@ -169,6 +169,7 @@ class FocalLoss(nn.Module):
         return torch.stack(classification_losses).mean(dim=0, keepdim=True), torch.stack(regression_losses).mean(dim=0, keepdim=True)
 
     
+    
 class FocalLossReid(nn.Module):
     def forward(self, classifications, anchors, annotations1, annotations2):
         alpha = 0.25
