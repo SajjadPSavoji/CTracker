@@ -23,6 +23,8 @@ def calc_iou(a, b):
 
     return IoU
 
+
+
 class FocalLoss(nn.Module):
     def forward(self, classifications, regressions, anchors, annotations1, annotations2):
         alpha = 0.25
