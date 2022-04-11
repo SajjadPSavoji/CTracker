@@ -68,6 +68,7 @@ class PyramidFeatures(nn.Module):
         return [P3_x, P4_x, P5_x, P6_x, P7_x]
 
 
+
 class RegressionModel(nn.Module):
     def __init__(self, num_features_in, num_anchors=1, feature_size=256):
         super(RegressionModel, self).__init__()
