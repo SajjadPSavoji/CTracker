@@ -1,4 +1,4 @@
-# CTracker (ECCV2020)
+# CTracker
 
 <!-- my implementation  of **Chained-Tracker** as described in [Chained-Tracker](https://arxiv.org/abs/2007.14557). -->
  
