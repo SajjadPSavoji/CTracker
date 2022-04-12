@@ -1,8 +1,12 @@
-# CTracker (ECCV2020)
+# CTracker
 
 <!-- my implementation  of **Chained-Tracker** as described in [Chained-Tracker](https://arxiv.org/abs/2007.14557). -->
  
 The introduction video of CTracker is uploaded to [Youtube](https://www.youtube.com/watch?v=UovwAgKys88).
+
+Report is [here](https://github.com/SajjadPSavoji/CTracker/tree/main/Report).
+
+My own presentation is [here](https://github.com/SajjadPSavoji/CTracker/tree/main/Presentation).
 
 ## Video demos on MOT challenge test set
 <img src="demos/MOT17-03.gif" width="400"/>   <img src="demos/MOT17-07.gif" width="400"/>
@@ -67,8 +71,7 @@ person,0
 
 <!-- - Find the origianl implementation at [here](https://github.com/pjl1995/CTracker) -->
 - For evaluatio we used the official MOT evaluation code named [TrackEval](https://github.com/JonathonLuiten/TrackEval/tree/master/docs/MOTChallenge-Official)
-- Part of codes are borrowed from the [pytorch retinanet implementation](htt
-ps://github.com/yhenon/pytorch-retinanet)
+- Part of codes are borrowed from the [pytorch retinanet implementation](https://github.com/yhenon/pytorch-retinanet)
 - The NMS module used is from the [simpledet](https://github.com/TuSimple/simpledet)
 
 <!-- 
