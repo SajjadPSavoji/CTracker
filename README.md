@@ -1,8 +1,6 @@
 # CTracker
 
 <!-- my implementation  of **Chained-Tracker** as described in [Chained-Tracker](https://arxiv.org/abs/2007.14557). -->
- 
-The introduction video of CTracker is uploaded to [Youtube](https://www.youtube.com/watch?v=UovwAgKys88).
 
 Report is [here](https://github.com/SajjadPSavoji/CTracker/tree/main/Report).
 
